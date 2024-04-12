@@ -6,14 +6,14 @@ import Parallax from './Components/Parallax/Parallax';
 import Portfolio from './Components/portfolio/Portfolio';
 import Services from './Components/Services/Services';
 import Contacts from './Components/Contacts/Contacts';
-import Cursor from './Components/Cursor/cursor';
+import Cursor from './Components/Cursor/Cursor';
 import Education from './Components/Education/Education';
 
 const App = () => {
   return <div>
     {/* task-1 ---> Create all the sections  */}
     {/* <section><a href=''>Hello</a></section> */}
-    {/* <Cursor /> */}
+    <Cursor />
     <section id="HomePage">
       <Navbar />
       <Hero />
